@@ -1,38 +1,38 @@
 @charset "utf-8";
 /* CSS Document */
  #principal {
-	 position: absolute;
-	 left: 0;
-	 top: 0;
-	 width: 100%;
-	 height: 100vh;
+	 position:absolute;
+	 left:0;
+	 width:100%;
+	 height:100vh;
 	}
 	
 	#pantalla {
 		float: left;
-		width: 100%;
+		width:100%;
 		height: 25%;
-		background: #F03;
+		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9));
 		text-align: center;
-		color: #FFF;
+		color: #F03;
 		font-size: 4em;
 		font-weight: bold;
+		font-style:italic;
 		font-family: "Times New Roman", Times, serif;
 	}
 	
 	#teclado {
-		float: left;
+		
 		width: 100%;
-		height: 75%;
+		height: 83%;
 	}
 	
 	.nota {
 		position: relative;
 		float: left;
 		height: 90%;
-		outline: #3F3 solid 1px;
-		background: #309;
-		width: 14.28571428571429%;
+		outline: #396 solid 1px;
+		background-image: linear-gradient(rgba(0,0,0,0.9),rgba(255,0,0,0.5));
+		width: 12.5%;
 	}
 	
 	.textonota {
@@ -44,8 +44,8 @@
 	}
 	
 	.tocada {
-		background: #903;
-		color: #960;
-		outline:#FFO solid 1px;
+		background-image: linear-gradient(rgba(0,0,0,0.9),rgba(255,255,255,0.5));
+		color: #F96;
+		outline: #990 solid 1px;
 	}
 
